@@ -289,7 +289,6 @@ nav h1 a {
 
 /* ==================== Media Queries ==================== */
 @media screen and (min-width: 550px) {
-
   /* ==== Navigation === */
   nav h1 a {
     font-size: 1em;
@@ -312,4 +311,13 @@ nav h1 a {
     font-size: 1.5em;
   }
 
+}
+
+@media screen and (min-width: 735px) {
+  #restaurants-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+  }
 }
