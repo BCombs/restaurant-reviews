@@ -314,6 +314,7 @@ nav h1 a {
 }
 
 @media screen and (min-width: 735px) {
+  /* === Restaurants List === */
   #restaurants-list li {
     display: flex;
     flex-direction: column;
