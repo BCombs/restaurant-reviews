@@ -148,7 +148,7 @@ nav h1 a {
 #restaurants-list {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
+  justify-content: space-between;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin-left: 0;
@@ -184,6 +184,7 @@ nav h1 a {
   margin: 20px 0 10px;
   text-transform: uppercase;
 }
+
 #restaurants-list p {
   margin: 0;
   font-size: 1.5em;
@@ -286,6 +287,7 @@ nav h1 a {
   position: relative;
   width: 85%;
 }
+
 #reviews-list li p {
   margin: 0 0 10px;
 }
@@ -353,5 +355,12 @@ nav h1 a {
   /* === Restaurants List === */
   #restaurants-list li {
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 1640px) {
+  /* === Restaurants List === */
+  #restaurants-list li {
+    width: 23%;
   }
 }
