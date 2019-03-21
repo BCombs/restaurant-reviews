@@ -164,7 +164,7 @@ nav h1 a {
   min-height: 380px;
   padding: 10px;
   text-align: left;
-  width: 100%;
+  flex-basis: 100%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -278,7 +278,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -332,7 +332,7 @@ nav h1 a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 45%;
+    flex-basis: 45%;
   }
 }
 
@@ -354,13 +354,13 @@ nav h1 a {
 
   /* === Restaurants List === */
   #restaurants-list li {
-    width: 30%;
+    flex-basis: 30%;
   }
 }
 
 @media screen and (min-width: 1640px) {
   /* === Restaurants List === */
   #restaurants-list li {
-    width: 23%;
+    flex-basis: 23%;
   }
 }
