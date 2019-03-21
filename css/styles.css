@@ -267,7 +267,6 @@ nav h1 a {
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  margin: auto;
   width: 100%;
 }
 
@@ -347,6 +346,13 @@ nav h1 a {
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 45%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #restaurant-container, #reviews-container {
+    max-width: 880px;
+    margin: auto;
   }
 }
 
