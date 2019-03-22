@@ -111,7 +111,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 30vh;
+  height: 12rem;
   background-color: #3397DB;
   display: flex;
   flex-direction: column;
@@ -309,35 +309,10 @@ nav h1 a {
 }
 
 /* ==================== Media Queries ==================== */
-@media screen and (min-width: 550px) {
-  /* ==== Navigation === */
-  nav h1 a {
-    font-size: 1em;
-  }
-
-  /* === Map === */
-  #map {
-    height: 50vh;
-  }
-
-  /* === Restaurant filtering === */
-  .filter-options h2 {
-    padding: 10px 0;
-  }
-
-  .filter-options select {
-    width: 70%;
-    margin: 10px auto;
-    height: 4rem;
-    font-size: 1.5em;
-  }
-
-}
-
 @media screen and (min-width: 735px) {
   /* === Restaurant Filtering === */
   .filter-options {
-    height: 25vh;
+    height: 12rem;
   }
 
   /* === Restaurants List === */
@@ -359,7 +334,7 @@ nav h1 a {
 @media screen and (min-width: 980px) {
   /* === Restaurant Filtering === */
   .filter-options {
-    height: 15vh;
+    height: 10rem;
   }
 
   .selection-options-container {
