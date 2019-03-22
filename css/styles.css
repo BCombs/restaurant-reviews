@@ -109,6 +109,10 @@ nav h1 a {
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
+#neighborhood-label, #cuisine-label {
+  display: none;
+}
+
 .filter-options {
   width: 100%;
   height: 12rem;
@@ -339,7 +343,7 @@ nav h1 a {
 
   .selection-options-container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .selection-options-container select {

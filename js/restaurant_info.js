@@ -4,7 +4,8 @@ var newMap;
 /**
  * Initialize map as soon as the page is loaded.
  */
-document.addEventListener('DOMContentLoaded', (event) => {  
+document.addEventListener('DOMContentLoaded', (event) => { 
+  registerServiceWorker(); 
   initMap();
 });
 
@@ -192,4 +193,13 @@ getParameterByName = (name, url) => {
   if (!results[2])
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+/**
+ * Register the service worker for caching
+ */
+registerServiceWorker = () => {
+  if(navigator.serviceWorker) {
+    navigator.serviceWorker.register('sw.js');
+  }
 }
